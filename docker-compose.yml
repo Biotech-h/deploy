@@ -29,7 +29,7 @@ services:
       - biotech
 
   frontend:
-    image: ghcr.io/biotech-h/frontend:v1.0.3
+    image: ghcr.io/biotech-h/frontend:v1.0.4
     env_file:
       - .env
     environment:
